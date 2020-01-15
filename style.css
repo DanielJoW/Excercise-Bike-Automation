@@ -1,0 +1,65 @@
+body {
+  background-image: url(background.jpg);
+  background-repeat: repeat-x repeat-y;
+}
+
+h1 {
+  font-family: Futura;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 55px;
+  background-color: white;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: lighter;
+}
+
+#container {
+  padding: .5vw .5vw .5vw .5vw;
+  background-color: white;
+  box-shadow: 3px 3px 20px #000000, -3px -3px 20px #000000;
+  max-height: auto;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-family: Futura;
+}
+
+#startWorkOut {
+  width: 350px;
+  height: 75px;
+  text-align: center;
+  background-color: #01E72B;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.inprogress {
+  color: #F30000;
+}
+
+.finished {
+  color: #01E72B;
+}
+
+.hide {
+  display: none;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
