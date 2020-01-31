@@ -4,6 +4,8 @@ var minuteCount = 0;
 function startWorkOut(){
   var element = document.getElementById("startWorkOut");
       element.classList.add("hide");
+  var element = document.getElementById("startWorkOut");
+      element.classList.add("hide");
   var element = document.getElementById("counter");
       element.classList.add("inprogress");
   document.getElementById("counter").innerHTML = "BEGIN";
