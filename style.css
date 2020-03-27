@@ -67,3 +67,20 @@ h4 {
   position: sticky;
   top: 0;
 }
+
+#footer {
+  max-width: 200px;
+  margin: auto;
+}
+
+#link1 {
+  float: left;
+}
+
+#link2 {
+  float: right;
+}
+
+a {
+  color: white;
+}
